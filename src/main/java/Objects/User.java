@@ -50,6 +50,10 @@ public class User {
 		}
 		return openColdTap;
 	}
+	
+	public void helloWorld(){
+		System.out.println("Hello World");
+	}
 
 	public void setOpenColdTap(boolean openColdTap) {
 		this.openColdTap = openColdTap;
